@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label {border: 2px solid blue;
+        background-color: lightblue;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px; width: 100px;
+    }
+    form {background-color: aqua;}
+    input { padding: 5px; margin-left: 20px;}
+</style>
+<body>
+    <h1>Formulario de Compra</h1>
+    <hr>
+    <fieldset>
+        <legend>Datos de compra</legend>
+     <p>
+        <label for="cor">Dirección de correo </label>
+        <input type="text, number" maxlength="100" name="correo" id="cor">
+    </p>
+    <p>
+        <label for="nom">Nombre:</label>
+        <input type="text" maxlength="6" name="Nombre" id="nom">
+    </p>
+    <p>
+        <label for="apl">Apellidos: </label>
+        <input type="text" maxlength="100" name="apellido" id="apl">
+    </p>
+    <p>
+        <label for="num">Numero de Productos: </label>
+        <input type="number" maxlength="3" name="numero" id="num">
+    </p>
+    <p>
+        <label for="dir">Direccion de Facturación: </label>
+        <input type="text, number" maxlength="100" name="direccion" id="dir">
+    </p>
+    <p>
+        <label for="cod">Código Postal </label>
+        <input type="number" maxlength="5" name="codigo" id="cod">
+    </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Procesar Compra">
+        <input type="reset" value="Borrar todo">
+        <a href="index.html">Volver atras</a>
+    </p>
+</body>
+
+</html>
